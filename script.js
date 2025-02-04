@@ -42,7 +42,7 @@
 
     // The event keyboard
     document.addEventListener("keydown", function(event) {
-        if (event.key === "f" || event.key === "F") { // Tekan 'F' untuk toggle
+        if (event.key === "f" || event.key === "F") { // Press F for the toggle
             toggleSeatbeltSign();
         }
     });
